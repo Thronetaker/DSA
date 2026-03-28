@@ -1,4 +1,6 @@
 import.java.util.*;
+// approach is similar to find min n max in an array
+// its just requiring checking for max profiy than max value in array
 class Solution {
     // Function to calculate maximum profit using single pass
     public int stockbuySell(int[] prices) {
