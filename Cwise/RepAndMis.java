@@ -22,6 +22,21 @@ public class RepAndMis{
         
     }
 
+    public static void RepetingAndMissingB(int arr[], int n ){
+        //x = repe  y = miss
+        int xor = 0;
+
+        for(int i = 0; i< n ;i++){
+            
+        }
+        
+        System.out.println("Repeating : " + "x");
+        System.out.println("Missing : " + "y");
+        
+    }
+
+
+
     public static void RepetingAndMissing(int arr[], int n ){
         int hash[] = new int[n+1];
         int rep = -1, mis =-1;
