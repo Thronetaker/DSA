@@ -51,6 +51,7 @@ public class InterLL{
     }
 
     public static Node intersectionLLSir(Node h1,Node h2){
+        if (h1 == null || h2 == null)return null;
         Node p1 = h1, p2 = h2;
         while(p1!=p2){
              p1 = p1 == null ?  h2 : p1.next;
@@ -67,7 +68,11 @@ public class InterLL{
        printLL(h1);
        printLL(h2);
        Node inter = intersectionLLSir(h1, h2);
-       System.out.println(" intersection : " + inter);
+      if (inter != null) {
+       System.out.println(" intersection : " + inter.val);
+   } else {
+       System.out.println("No intersection");
+   }
     }
 
 }
