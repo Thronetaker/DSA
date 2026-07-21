@@ -55,7 +55,7 @@ public class InterLL{
         Node p1 = h1, p2 = h2;
         while(p1!=p2){
              p1 = p1 == null ?  h2 : p1.next;
-            p2 = p2== null ?  h1 : p2.next;     
+            p2 = p2 == null ?  h1 : p2.next;     
         }
         return p1;
     }
