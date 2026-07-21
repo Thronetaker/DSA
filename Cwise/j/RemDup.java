@@ -1,5 +1,5 @@
 
-package Cwise;
+package j;
 public class RemDup {
 
     public static int rem(int arr[]){
