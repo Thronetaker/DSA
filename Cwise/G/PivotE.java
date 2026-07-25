@@ -3,7 +3,7 @@ import java.util.*;
 public class PivotE {
 
     public static int pivotEle(int arr[]){
-        int rs = 0, ls = 0, ts= 0;
+        int rs = 0, ls = 0;
         for(int i : arr){
             rs+= i;
         }
