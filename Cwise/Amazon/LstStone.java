@@ -2,7 +2,7 @@ import java.util.*;
 
 public class LstStone {
     public static int lastStoneWgt(int arr[]){
-        PriorityQueue<Integer>  maxheap = new PriorityQueue<>(Collections.reverseOrder()); 
+        PriorityQueue<Integer>  maxheap = new PriorityQueue<>(Collections.reverseOrder());  //OR (a,b) -> b-a
         for(int n  : arr){
             maxheap.add(n);
         }
