@@ -18,3 +18,6 @@ Sequences/
 ## Author
 
 Learning DSA for placements and system programming.
+
+i m doing all sorts of prb;ms in it 
+hope it helps me in future 

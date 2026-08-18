@@ -73,8 +73,10 @@ class Main {
 
 // Algorithm
 // Sort the input array in ascending order to transform the problem into finding the longest divisible chain.
-// Initialize two arrays: dp[i] to store the length of the longest divisible subset ending at index i (initially set to 1), and parent[i] to store the previous element in the optimal subset (initially set to i).
-// For each element, check all previous elements. If the current element is divisible by a previous element and forms a longer subset, update dp[i] and parent[i].
+// Initialize two arrays: dp[i] to store the length of the longest divisible subset ending at index i (initially set to 1), 
+// and parent[i] to store the previous element in the optimal subset (initially set to i).
+// For each element, check all previous elements. If the current element is divisible by
+//  a previous element and forms a longer subset, update dp[i] and parent[i].
 // While filling the DP table, keep track of the maximum length and its ending index (lastIndex).
 // Backtrack from lastIndex using the parent array until reaching an element whose parent is itself.
 // The backtracked elements form the longest divisible subset in correct order, which can be returned as the result.
